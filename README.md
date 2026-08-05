@@ -1,3 +1,4 @@
+
 # 🚌 Dakar Smart City — Système Temps-Réel de Mobilité Urbaine
 
 **UADB | Master 2 Big Data & IA | 2025-2026**  
@@ -123,19 +124,6 @@ spark-submit --master spark://spark-master:7077 scripts/train_and_catalog.py
 
 ---
 
-## 📊 Barème de Notation (20 pts)
-
-| Critère                    | Pts | Objectif Excellence                                              |
-|----------------------------|-----|------------------------------------------------------------------|
-| Infrastructure & Setup NiFi| 3   | Process Group actif, messages JSON visibles sur port 8081        |
-| Validation & Privacy        | 4   | DakarMobilitySchema + SHA-256 + drop(vehicle_id) + COALESCE      |
-| Streaming & Kafka           | 3   | 2 queries indépendantes + watermarks + fallback modèle           |
-| MLOps & IA                  | 6   | RF + versionnage + BranchPython RMSE>15 + réentraînement auto    |
-| HBase/Hive & Analytics      | 4   | vue_etat_trafic + vue_model_drift + alertes HBase live + dashboard|
-
-**Bonus** : README + captures NiFi (+0.5), docstrings (+0.5), MLflow (+0.5), démo live HBase (+0.5)
-
----
 
 ## 🏗️ Architecture End-to-End
 
@@ -158,3 +146,6 @@ spark-submit --master spark://spark-master:7077 scripts/train_and_catalog.py
 ```
 
 ---
+=======
+
+
